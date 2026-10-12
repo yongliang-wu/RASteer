@@ -1,0 +1,17 @@
+# Generation
+torch
+diffusers==0.30.2
+transformers==4.44.2
+accelerate
+safetensors
+datasets
+pandas
+numpy
+pillow
+tqdm
+
+# Evaluation
+git+https://github.com/openai/CLIP.git
+clean-fid
+lpips
+onnxruntime-gpu    # NudeNet counter; onnxruntime (CPU) also works
